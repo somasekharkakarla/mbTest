@@ -77,12 +77,12 @@ PODS:
     - hermes-engine/Pre-built (= 0.71.4)
   - hermes-engine/Pre-built (0.71.4)
   - libevent (2.1.12)
-  - MapboxCommon (23.3.2)
-  - MapboxCoreMaps (10.11.1):
-    - MapboxCommon (~> 23.3)
-  - MapboxMaps (10.11.1):
-    - MapboxCommon (= 23.3.2)
-    - MapboxCoreMaps (= 10.11.1)
+  - MapboxCommon (23.5.0)
+  - MapboxCoreMaps (10.13.1):
+    - MapboxCommon (~> 23.5)
+  - MapboxMaps (10.13.1):
+    - MapboxCommon (= 23.5.0)
+    - MapboxCoreMaps (= 10.13.1)
     - MapboxMobileEvents (= 1.0.10)
     - Turf (~> 2.0)
   - MapboxMobileEvents (1.0.10)
@@ -422,18 +422,18 @@ PODS:
     - React-jsi (= 0.71.4)
     - React-logger (= 0.71.4)
     - React-perflogger (= 0.71.4)
-  - rnmapbox-maps (10.0.0-beta.78):
-    - MapboxMaps (~> 10.11.1)
+  - rnmapbox-maps (10.0.6):
+    - MapboxMaps (~> 10.13.1)
     - React
     - React-Core
-    - rnmapbox-maps/DynamicLibrary (= 10.0.0-beta.78)
+    - rnmapbox-maps/DynamicLibrary (= 10.0.6)
     - Turf
-  - rnmapbox-maps/DynamicLibrary (10.0.0-beta.78):
-    - MapboxMaps (~> 10.11.1)
+  - rnmapbox-maps/DynamicLibrary (10.0.6):
+    - MapboxMaps (~> 10.13.1)
     - React
     - React-Core
     - Turf
-  - SocketRocket (0.6.0)
+  - SocketRocket (0.6.1)
   - Turf (2.6.1)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
@@ -615,9 +615,9 @@ SPEC CHECKSUMS:
   glog: 04b94705f318337d7ead9e6d17c019bd9b1f6b1b
   hermes-engine: a1f157c49ea579c28b0296bda8530e980c45bdb3
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
-  MapboxCommon: c3a35f6884b80d898de9f11d88cb28c5caba584a
-  MapboxCoreMaps: 03e7214fabb54d496ff56314ff8159dd264b6093
-  MapboxMaps: 85610575a8871b3f5e98be2a234f0229a33324a7
+  MapboxCommon: fdf7fd31c90b7b607cd9c63e37797f023c01d860
+  MapboxCoreMaps: 24270c7c6b8cb71819fc2f3c549db9620ee4d019
+  MapboxMaps: cb76511b98d3b95c74b0771ed105bc69f30ace6b
   MapboxMobileEvents: de50b3a4de180dd129c326e09cd12c8adaaa46d6
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
   RCT-Folly: 424b8c9a7a0b9ab2886ffe9c3b041ef628fd4fb1
@@ -625,7 +625,7 @@ SPEC CHECKSUMS:
   RCTTypeSafety: b6c253064466411c6810b45f66bc1e43ce0c54ba
   React: 715292db5bd46989419445a5547954b25d2090f0
   React-callinvoker: 105392d1179058585b564d35b4592fe1c46d6fba
-  React-Codegen: b75333b93d835afce84b73472927cccaef2c9f8c
+  React-Codegen: 6a46176e713adadb45d5fed764bad879985eff6c
   React-Core: 88838ed1724c64905fc6c0811d752828a92e395b
   React-CoreModules: cd238b4bb8dc8529ccc8b34ceae7267b04ce1882
   React-cxxreact: 291bfab79d8098dc5ebab98f62e6bdfe81b3955a
@@ -647,12 +647,12 @@ SPEC CHECKSUMS:
   React-RCTVibration: ad17efcfb2fa8f6bfd8ac0cf48d96668b8b28e0b
   React-runtimeexecutor: 8fa50b38df6b992c76537993a2b0553d3b088004
   ReactCommon: b49a4b00ca6d181ff74b17c12b2d59ac4add0bde
-  rnmapbox-maps: b326110e96cbb198a5288588a37dcb6e805d39cb
-  SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
+  rnmapbox-maps: 8cb38295688c0c1f9e33d1c2bc494b5de53fbd0c
+  SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Turf: 469ce2c3d22e5e8e4818d5a3b254699a5c89efa4
   Yoga: 79dd7410de6f8ad73a77c868d3d368843f0c93e0
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
 PODFILE CHECKSUM: 1fcaaa77bb2ed0206c44670bc05334fd6015dc71
 
-COCOAPODS: 1.12.0
+COCOAPODS: 1.12.1
